@@ -12,7 +12,8 @@ control for permissions, flags, et al. See example:
 
 ```java
 @Permission ("workbench.example")
-@Command (aliases = { "example" }, simple = "Shows a message to the user.", console = true)
+@Command (aliases = { "example" }, simple = "Shows a message to the user.",
+          console = true)
 public void example (Session user, Arguments args,
                      @Default("0") @Flag('i') int value) throws CommandException {
     user.print(ChatColor.AQUA + "Hello!" +
