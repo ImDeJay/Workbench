@@ -121,7 +121,6 @@ public class SpecialMessage {
                 if (!closedTags.contains(node.getID())) {
                     if (node.isOpening()) {
                         result.put(node.getType(), node);
-                        System.out.println("");
                   } else {
                         closedTags.add(node.getID());
                     }
