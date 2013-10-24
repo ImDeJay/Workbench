@@ -9,7 +9,7 @@ public enum Tag {
     EMPHASIS ("em", "i", "emphasis", "italic"),
     UNDERLINE ("u", "underline"),
     STRIKE ("s", "strike", "strikethrough"),
-    MAGIC ("m", "magic", "random"),
+    MAGIC ("m", "magic", "random", "?"),
     RESET ("r", "reset"),
     COLOUR ("colour", "color", "pattern");
 
