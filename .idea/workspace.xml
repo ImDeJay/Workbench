@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24765dde-0d0a-4573-b99d-d983829a4b4d" name="Default" comment="" />
+    <ignored path="CommandUtilities.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Arguments.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382289087203" ignored="false" />
+    <file path="/CommandException.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382289386287" ignored="false" />
+    <file path="/Required.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376049470888" ignored="false" />
+    <file path="/Optional.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380249983824" ignored="false" />
+    <file path="/Number.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376022356775" ignored="false" />
+    <file path="/Documentation.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380318486261" ignored="false" />
+    <file path="/Expressed.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380161390483" ignored="false" />
+    <file path="/Argument.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376022710862" ignored="false" />
+    <file path="/Vector.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382323854484" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/util/math/Vector.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376591508518" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/interfaces/newchange/Change.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376535953153" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/util/math/RemoteZeroVector.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376423558592" ignored="false" />
+    <file path="/RemoteZeroVector.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382295414992" ignored="false" />
+    <file path="/Change.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376595067274" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/interfaces/change/Change.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597321144" ignored="false" />
+    <file path="/SmarterLogging.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376448295471" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/logging/SmarterLogging.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376590010396" ignored="false" />
+    <file path="/Performer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376423508439" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/interfaces/change/Performer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376423514517" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/sql/Query.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597321144" ignored="false" />
+    <file path="/Query.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376595840819" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/util/math/DateComparison.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376501724859" ignored="false" />
+    <file path="/DateComparison.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038469071" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/action/Action.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376590010396" ignored="false" />
+    <file path="/Action.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382480966879" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/interfaces/newchange/UncastChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376535994689" ignored="false" />
+    <file path="/UncastChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376594563905" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/TrackerServices.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376537021644" ignored="false" />
+    <file path="/TrackerServices.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378668514377" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/resources/lang/messages-en_UK.yml" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381550894865" ignored="false" />
+    <file path="/messages-en_UK.yml" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381368374090" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/msg/MessageAssist.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376589935382" ignored="false" />
+    <file path="/MessageAssist.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376589720202" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/interfaces/change/UncastChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376594564823" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/interfaces/rollbacks/Rollback.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597321144" ignored="false" />
+    <file path="/Rollback.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597056189" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/interfaces/rollbacks/PerformerManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376593999402" ignored="false" />
+    <file path="/PerformerManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376593657072" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/interfaces/rollbacks/Result.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376594476083" ignored="false" />
+    <file path="/Result.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761080487" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/command/change/RollbackCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597321144" ignored="false" />
+    <file path="/RollbackCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597257619" ignored="false" />
+    <file path="/Parameters.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378728302884" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/util/cmd/Parameters.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376595583482" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/util/ChangeOptions.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597321144" ignored="false" />
+    <file path="/ChangeOptions.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378623515992" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/util/enums/Permissions.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597190468" ignored="false" />
+    <file path="/Permissions.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381078867311" ignored="false" />
+    <file path="/Properties.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378623738034" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/util/cmd/Properties.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597247961" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/command/lookup/TeleportCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597365161" ignored="false" />
+    <file path="/TeleportCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378698897361" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/com/futuredev/tracker/util/cmd/CommandProcessing.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376597516902" ignored="false" />
+    <file path="/CommandProcessing.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381551186355" ignored="false" />
+    <file path="/HashMap3D.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1376872970548" ignored="false" />
+    <file path="/MaterialFinder.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378157488536" ignored="false" />
+    <file path="/MaterialDatabase.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378608570546" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/MaterialDatabase.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378617467147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/TrackerServices.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378669512383" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/command/lookup/LookupCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378619725700" ignored="false" />
+    <file path="/LookupCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378619725261" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/session/query/QuerySession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381593412188" ignored="false" />
+    <file path="/QuerySession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381593412188" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/logging/Heuristics.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378609388076" ignored="false" />
+    <file path="/Heuristics.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378609383028" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/ItemData.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378618044880" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/lexers/params/ItemLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378617855509" ignored="false" />
+    <file path="/ItemLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378617849176" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/Options.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378681405452" ignored="false" />
+    <file path="/Options.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378681402724" ignored="false" />
+    <file path="/ItemData.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378617930559" ignored="false" />
+    <file path="/SmartLogging.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378618268122" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/logging/SmartLogging.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378618268528" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/command/change/ApplyCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378624677725" ignored="false" />
+    <file path="/ApplyCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378624668100" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/cmd/Processor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379882273111" ignored="false" />
+    <file path="/Processor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379870650447" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/cmd/SimpleProcessor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381452272190" ignored="false" />
+    <file path="/SimpleProcessor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381452262090" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/cmd/ParameterProcessor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381452003355" ignored="false" />
+    <file path="/ParameterProcessor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381451845581" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/ChangeOptions.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378623551330" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/cmd/Properties.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378624737943" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/cmd/CommandProcessing.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381551215463" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/lexers/params/PlayerLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378667311068" ignored="false" />
+    <file path="/PlayerLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378667302084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/Tracker.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038786258" ignored="false" />
+    <file path="/Tracker.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038783931" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/lexers/params/TargetLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379861178040" ignored="false" />
+    <file path="/TargetLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379861152313" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/session/user/PlayerSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378667788043" ignored="false" />
+    <file path="/PlayerSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380994141514" ignored="false" />
+    <file path="/MissingCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378669245348" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/command/lookup/MissingCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378669547318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/math/Vector.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380142577641" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/tool/NavigatorTool.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378667788043" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/tool/ToolMode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379882738060" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/tool/LookupTool.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378667959692" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/tool/Tool.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378667788043" ignored="false" />
+    <file path="/ToolMode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378667894863" ignored="false" />
+    <file path="/LookupTool.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378667914789" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/command/lookup/InspectCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379882742011" ignored="false" />
+    <file path="/InspectCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379882462579" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/command/lookup/TeleportCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378698906520" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/session/query/TeleportSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378774500803" ignored="false" />
+    <file path="/TeleportSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378774500282" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/SafeTeleporter.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378774084944" ignored="false" />
+    <file path="/SafeTeleporter.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378774084944" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/date/Timestamp.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378682562870" ignored="false" />
+    <file path="/Timestamp.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378682557708" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/date/StampType.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378682157397" ignored="false" />
+    <file path="/StampType.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378682157397" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/session/user/Session.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378682522206" ignored="false" />
+    <file path="/Session.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381104197193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/enums/ParameterKey.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381456671584" ignored="false" />
+    <file path="/ParameterKey.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381456655818" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/cmd/Parameters.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378728551405" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/lexers/StateLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378864367821" ignored="false" />
+    <file path="/StateLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378860325962" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/lexers/StateStringLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378776144096" ignored="false" />
+    <file path="/StateStringLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378776206027" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/lexers/StringLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378813710425" ignored="false" />
+    <file path="/StringLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378813709759" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/conversion/LoggingPlugin.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379039593633" ignored="false" />
+    <file path="/LoggingPlugin.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378858087251" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/conversion/TerminalConverter.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378849671721" ignored="false" />
+    <file path="/TerminalConverter.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378864426965" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/conversion/DatabaseSwitcher.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379037404794" ignored="false" />
+    <file path="/DatabaseSwitcher.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379037387949" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/QuerySyntax.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378867815088" ignored="false" />
+    <file path="/QuerySyntax.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378867796340" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/Queue.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038155640" ignored="false" />
+    <file path="/Queue.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038057367" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/date/DateComparison.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038492018" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/msg/StringHelper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038687472" ignored="false" />
+    <file path="/StringHelper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382291615692" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/session/query/InventorySession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379073976324" ignored="false" />
+    <file path="/InventorySession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379073967908" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/interfaces/change/BlockChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379866891800" ignored="false" />
+    <file path="/BlockChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379866851922" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/interfaces/rollbacks/Rollback.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379469053158" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/interfaces/change/AbstractChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379468953206" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/interfaces/rollbacks/Result.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379469039546" ignored="false" />
+    <file path="/ShortcutCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379735371223" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/command/other/ShortcutCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379735374159" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/enums/Identifier.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379861159731" ignored="false" />
+    <file path="/Identifier.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379861082368" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/enums/ActionID.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379866891800" ignored="false" />
+    <file path="/ActionID.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379866876281" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/action/Action.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379866380455" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/cmd/Flag.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379882716587" ignored="false" />
+    <file path="/Flag.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380162744986" ignored="false" />
+    <file path="/fragment.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380312806278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/lexers/params/LocationLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380142147370" ignored="false" />
+    <file path="/LocationLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380141935455" ignored="false" />
+    <file path="/AnnotationExecutor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380162165817" ignored="false" />
+    <file path="/CommandMap.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382475613792" ignored="false" />
+    <file path="/CommandManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334896521" ignored="false" />
+    <file path="/Integer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380161621178" ignored="false" />
+    <file path="/Double.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380161647717" ignored="false" />
+    <file path="/CommandProcessor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380668320116" ignored="false" />
+    <file path="/Example.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380283497236" ignored="false" />
+    <file path="/Command.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380246869950" ignored="false" />
+    <file path="/CommandAlias.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380233556079" ignored="false" />
+    <file path="/BukkitCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380330897731" ignored="false" />
+    <file path="/Permission.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380283371262" ignored="false" />
+    <file path="/Dummy.txt" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380993887867" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/util/Permissions.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381078867311" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/util/session/Session.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381104546633" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/util/session/PlayerSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380994166862" ignored="false" />
+    <file path="/a.dummy" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380312129472" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/FutureSuite.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380340452217" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/util/UserSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380312559390" ignored="false" />
+    <file path="/FutureSuite.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380340080198" ignored="false" />
+    <file path="/Levenshtein.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380312890791" ignored="false" />
+    <file path="/a.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382297633719" ignored="false" />
+    <file path="/DynamicDocumentation.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380330910247" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/ClearCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/CompassCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/fun/EffectCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/EnchantCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/misc/FSCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/FlyCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/GamemodeCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/GetposCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/GiveCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/GodCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/fun/HatCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/HelpCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/teleport/HomeCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/fun/IgniteCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/IgnoreCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/InfoCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/ItemCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/mod/KickCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/ListCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/MOTDCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/MailCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/MessageCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/MobCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/mod/MuteCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/PlayerCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/misc/PunCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/RepairCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/ReplyCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/RulesCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/mod/SayCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/misc/SayingCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/SessionCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/fun/ShockCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/fun/SlapCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/teleport/SpawnCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/mod/SpyCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/SuicideCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/teleport/TPACommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/teleport/TPCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/teleport/TPPermCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/teleport/TPToggleCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/TableCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/TimeCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/mod/UnbanCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/UnmaskCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/WeatherCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/mod/WhoisCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/mod/ACCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/general/AFKCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/cheat/AliasCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/teleport/BackCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/mod/BanCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/mod/BroadcastCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334125421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/util/cmd/CommandProcessing.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334221092" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/util/classes/GenericTarget.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334233277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/GeneralCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380374445604" ignored="false" />
+    <file path="/GeneralCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380372813171" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/TeleportCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381550915766" ignored="false" />
+    <file path="/TeleportCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381104536906" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/ModeratorCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334336366" ignored="false" />
+    <file path="/ModeratorCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334335887" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/CheatCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334359347" ignored="false" />
+    <file path="/CheatCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334358789" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/FunCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334374003" ignored="false" />
+    <file path="/FunCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334373534" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/command/MiscellaneousCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334503807" ignored="false" />
+    <file path="/MiscellaneousCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334503298" ignored="false" />
+    <file path="/Default.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380340549507" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/CorePlugin.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380398168840" ignored="false" />
+    <file path="/CorePlugin.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380466819936" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/Core.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380474965986" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/GameManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380400512969" ignored="false" />
+    <file path="/GameManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380472944821" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/game/Game.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380475838288" ignored="false" />
+    <file path="/Game.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380475789947" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/game/GamePlayer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380417770370" ignored="false" />
+    <file path="/GamePlayer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380428658180" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/game/GameMap.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380402731794" ignored="false" />
+    <file path="/GameMap.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380487496139" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/game/GameManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380473021463" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/loader/CoreExtension.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380400942315" ignored="false" />
+    <file path="/CoreExtension.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380400599965" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/command/CreationCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380407293076" ignored="false" />
+    <file path="/CreationCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380402809057" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/command/ManagementCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380402833972" ignored="false" />
+    <file path="/ManagementCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380402833124" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/command/ManagerCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380402846206" ignored="false" />
+    <file path="/Core.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380474965657" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/map/GameMap.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380628928923" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/map/MapCreator.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380409865599" ignored="false" />
+    <file path="/MapCreator.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380417844134" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/map/creator/MapCreator.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380417844134" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/map/creator/CreatorStep.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380416558920" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/map/creator/CreationStep.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380418037979" ignored="false" />
+    <file path="/CreationStep.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380417819127" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/map/editor/MapEditor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380418037979" ignored="false" />
+    <file path="/MapEditor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380417840788" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/game/GameLobby.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380473038128" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/game/Team.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380423688544" ignored="false" />
+    <file path="/Team.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380423686106" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/player/GamePlayer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380428675942" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/player/PlayerParty.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380422626083" ignored="false" />
+    <file path="/PlayerParty.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380422465896" ignored="false" />
+    <file path="/GameLobby.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380473011227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/game/GameTask.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380428681436" ignored="false" />
+    <file path="/GameTask.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380428434915" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/game/GameSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380472018439" ignored="false" />
+    <file path="/GameSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380472017120" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/game/GameStage.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380427800479" ignored="false" />
+    <file path="/GameStage.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380427800479" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/command/VoteCommands.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380428640597" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/representation/ServerSign.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380428926653" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/remote/Receiver.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380463244933" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/core/RemoteServer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380463813573" ignored="false" />
+    <file path="/RemoteServer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380463811544" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/remote/Remote.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380474751169" ignored="false" />
+    <file path="/Remote.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380463959762" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/remote/PacketDecryption.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380474722157" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/remote/packet/PacketDecryption.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380474727722" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CoreModule/src/main/java/it/go/remote/packet/DecryptionModule.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380474878277" ignored="false" />
+    <file path="/DecryptionModule.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380474878277" ignored="false" />
+    <file path="/PlayerInputStream.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761900681" ignored="false" />
+    <file path="/InputListening.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380743349578" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/Calculator.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380745619365" ignored="false" />
+    <file path="/Calculator.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380745567089" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/Licenses.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382576638198" ignored="false" />
+    <file path="/Licenses.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382576097851" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/wrap/Result.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761090795" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/wrap/Row.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761008426" ignored="false" />
+    <file path="/Row.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380760960453" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/wrap/QueryBuilder.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761441029" ignored="false" />
+    <file path="/QueryBuilder.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761411941" ignored="false" />
+    <file path="/SpecialMessage.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382571199895" ignored="false" />
+    <file path="/FirstMatch.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381073188971" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/util/RequestMode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381104546633" ignored="false" />
+    <file path="/RequestMode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381103818349" ignored="false" />
+    <file path="$PROJECT_DIR$/../../FutureSuite/src/main/resources/lang/messages-en_UK.yml" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381104417152" ignored="false" />
+    <file path="/SimpleSpecialMessage.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381356927017" ignored="false" />
+    <file path="/VectorRegion.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382295190709" ignored="false" />
+    <file path="/JSONElement.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382476973563" ignored="false" />
+    <file path="/Complex.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382475441840" ignored="false" />
+    <file path="/Element.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382574476367" ignored="false" />
+    <file path="/Tag.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382560970394" ignored="false" />
+    <file path="/Node.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382560039290" ignored="false" />
+    <file path="/ElementMapper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382578092251" ignored="false" />
+    <file path="/Tags.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382483111052" ignored="false" />
+    <file path="/ElementNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382569607678" ignored="false" />
+    <file path="/ColourPattern.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382560521723" ignored="false" />
+    <file path="/ColorPattern.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382573820555" ignored="false" />
+    <file path="/StringNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382569540797" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382569082294" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main/json/node/StringNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575825644" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main/json/node/ElementNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575814305" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main/json/ElementMapper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382576901034" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main/json/SpecialMessage.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575849208" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main/json/ColorPattern.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382573838710" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main/json/node/Node.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382569113508" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main/json/Tag.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382569113508" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main/json/Action.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382569113510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LicensePlate/src/main/json/Element.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382576126197" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/json/node/Node.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575552627" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/json/node/StringNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575552628" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/json/node/ElementNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575552628" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/futuredev/utilities/json/node/Node.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575564466" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/futuredev/utilities/json/node/StringNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575564466" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/futuredev/utilities/json/node/ElementNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575564466" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="CommandUtilities" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Element.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="13" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tag.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Tag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecialMessage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/SpecialMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="115" column="48" selection-start="4130" selection-end="4130" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElementMapper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/ElementMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="71" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.5299539">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/StringNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="25" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElementNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/ElementNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="6" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/node/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/node/ElementNode.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/ElementMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/ColourPattern.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/ColorPattern.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/Element.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/ColorPattern.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Element.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/json/Action.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/json/Action.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/SpecialMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/StringNode.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/ElementNode.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Tag.java" />
+        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/ElementMapper.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="localisation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="localisation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="localisation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bukkit-1.6.2-R0.2-20130829.060124-15.jar!/" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.futuredev.utilities.math" />
+      <recent name="com.futuredev.utilities.command" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json" />
+      <recent name="$PROJECT_DIR$/src/com/futuredev/utilities/math" />
+      <recent name="$PROJECT_DIR$/src/com/futuredev/utilities/localisation" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StatisticProjectComponent">
+    <option name="excludeCompilerOutput" value="true" />
+    <option name="excludeIdea9ArtifactDirectory" value="true" />
+    <option name="excludeTargetDirectories" value="true" />
+    <option name="activateWhenOpenProject" value="true" />
+    <option name="excludedDirectories">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="fileTypes" value="class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear;war;zip;jar;iml;iws;ipr;bz2;gz;" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24765dde-0d0a-4573-b99d-d983829a4b4d" name="Default" comment="" />
+      <created>1376020918862</created>
+      <updated>1376020918862</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/CommandMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="58" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.20673813">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/command/annotation/Complex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/command/annotation/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="71" selection-end="71" vertical-scroll-proportion="0.044378698" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/PlayerSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="107" selection-end="107" vertical-scroll-proportion="0.088757396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/ColorPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/SpecialMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="48" selection-start="4130" selection-end="4130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/ElementNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/StringNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/ElementMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="71" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.5299539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Utilities</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CommandUtilities</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Bukkit</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

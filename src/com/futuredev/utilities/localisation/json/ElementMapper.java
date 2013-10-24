@@ -3,6 +3,7 @@ package com.futuredev.utilities.localisation.json;
 import com.futuredev.utilities.localisation.json.node.ElementNode;
 import com.futuredev.utilities.localisation.json.node.Node;
 import com.futuredev.utilities.localisation.json.node.StringNode;
+import org.bukkit.ChatColor;
 
 import java.util.ArrayList;
 
@@ -74,6 +75,10 @@ public class ElementMapper {
                             i = j;
                             continue;
                         }
+
+                        if (tag == Tag.PROMPT)
+                            value = ChatColor.translateAlternateColorCodes('&', value)
+                                    .replaceAll("\u00A7", "\\\\u00A7");
 
                         if (close) {
                             int m;
