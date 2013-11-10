@@ -11,7 +11,7 @@ methods which auto-generate basic documentation, but also allow built-in
 control for permissions, flags, et al. See example:
 
 ```java
-@Permission ("workbench.example")
+@Permission ({"workbench.example", "You are not permitted to run this command."})
 @Command (aliases = { "example" }, simple = "Shows a message to the user.",
           console = true)
 public void example (Session user, Arguments args,
@@ -19,6 +19,18 @@ public void example (Session user, Arguments args,
     user.print(ChatColor.AQUA + "Hello!" +
         (args.hasFlag('i') ? " I see you put in" + value + "." : "" ));
 }
+```
+
+The processor for this system automatically tries to handle new object types which are marked
+by **`Resolvable<T>`**. This means that if such a class exists:
+```java
+public class RayTrace implements Resolvable<Block> {}
+```
+a developer may implement the **`resolve(ParametricCompiler, String)`** method in that class
+and then use it as such:
+```java
+public void example (Session user, Arguments args,
+                     @Resolver(RayTrace.class) Block target) throws CommandException {}
 ```
 
 * **A material database system.** Workbench can load items from a configuration file to match items.
