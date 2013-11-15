@@ -120,8 +120,34 @@ public class Element {
             elements.add("clickEvent:{ action:" + click + "," +
                     " value:'" + clickValue.replaceAll("'", "\\\\'") + "'}");
 
-        if (hoverValue != null && !hoverValue.isEmpty())
-            elements.add("hoverEvent:{action:show_text, value:'" + hoverValue.replaceAll("'", "\\\\'") + "'}");
+        if (hoverValue != null && !hoverValue.isEmpty()) {
+            String element = "hoverEvent:{action:" + (hoverValue.contains("\n") ? "show_item" : "show_text")
+                    + ", value:'";
+
+            if (hoverValue.contains("\n")) { // Support line breaks via show_item.
+                String[] split = hoverValue.split("\\n");
+                StringBuilder sb = new StringBuilder();
+
+                for (int i = 1; i < split.length; ++i) {
+                    if (split[i].contains(":")) // Fix a super-annoying bug in the JSON parser Mojang uses
+                        sb.append("\", a:\"");
+                    else sb.append("\", \"");
+
+
+                    sb.append("\\u00A7f").append(split[i].replaceAll("\"", "\\\\\"").replaceAll(",",
+                            "\\\\,").replaceAll("'", "\\'"));
+                }
+
+                // DRAWBACK: F3+H will show (#0001) beside the first line.
+                element += "{id:1, tag:{display:{Name:\"\\u00A7f" + split[0] + "\", "
+                        + (sb.toString().isEmpty() ? "" : "Lore:[" + sb.toString().substring(3) +
+                        "\"]") + "}}}'}";
+            } else {
+                element += hoverValue.replaceAll("'", "\\\\'") + "'}";
+            }
+
+            elements.add(element);
+        }
 
         boolean first = true;
         StringBuilder builder = new StringBuilder(result);
