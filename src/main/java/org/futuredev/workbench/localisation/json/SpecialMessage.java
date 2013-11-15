@@ -14,10 +14,10 @@ public class SpecialMessage {
     String output;
 
     public SpecialMessage (String input) {
-        this (new ElementMapper(input));
+        this (new HypertextMapper(input));
     }
 
-    public SpecialMessage (ElementMapper mapper) {
+    public SpecialMessage (Mapper mapper) {
 
         this.result = new ArrayList<Element>();
         this.output = "";

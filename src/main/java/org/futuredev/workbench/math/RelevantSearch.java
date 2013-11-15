@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * A very basic relevancy booster.
+ * A very basic relevancy booster for the QWERTY keyboard.
  *
  * For example, "block-craft" and "block-shift"
  * both have a Levenshtein distance of 3 from "block-swfrt",
@@ -43,22 +43,23 @@ public class RelevantSearch {
     }
 
     enum Alphabet {
-        A ('a', 'A', 1), B ('b', 'B', 2), C ('c', 'C', 3),
-        D ('d', 'D', 4), E ('e', 'E', 5), F ('f', 'F', 6),
-        G ('g', 'G', 7), H ('h', 'H', 8), I ('i', 'I', 9),
-        J ('j', 'J', 10), K ('k', 'K', 11), L ('l', 'L', 12),
-        M ('m', 'M', 13), N ('n', 'N', 14), O ('o', 'O', 15),
-        P ('p', 'P', 16), Q ('q', 'Q', 17), R ('r', 'R', 18),
-        S ('s', 'S', 19), T ('t', 'T', 20), U ('u', 'U', 21),
-        V ('v', 'V', 22), W ('w', 'W', 23), X ('x', 'X', 24),
-        Y ('y', 'Y', 25), Z ('z', 'Z', 26);
+        A ('a', 'A', 1, 2), B ('b', 'B', 5, 3), C ('c', 'C', 3, 3),
+        D ('d', 'D', 3, 2), E ('e', 'E', 3, 1), F ('f', 'F', 4, 2),
+        G ('g', 'G', 5, 2), H ('h', 'H', 6, 2), I ('i', 'I', 8, 1),
+        J ('j', 'J', 7, 2), K ('k', 'K', 8, 2), L ('l', 'L', 9, 2),
+        M ('m', 'M', 7, 3), N ('n', 'N', 6, 3), O ('o', 'O', 9, 1),
+        P ('p', 'P', 10, 1), Q ('q', 'Q', 1, 1), R ('r', 'R', 4, 1),
+        S ('s', 'S', 2, 2), T ('t', 'T', 5, 1), U ('u', 'U', 7, 1),
+        V ('v', 'V', 4, 3), W ('w', 'W', 2, 1), X ('x', 'X', 2, 3),
+        Y ('y', 'Y', 6, 1), Z ('z', 'Z', 1, 3);
 
         final char lowercase, uppercase;
-        final int index;
-        Alphabet (char lc, char uc, int index) {
+        final int x, y;
+        Alphabet (char lc, char uc, int x, int y) {
             this.lowercase = lc;
             this.uppercase = uc;
-            this.index     = index;
+            this.x = x;
+            this.y = y;
         }
 
         public static Alphabet match (char value) {
@@ -69,11 +70,11 @@ public class RelevantSearch {
             return null;
         }
 
-        public int getDistance (Alphabet other) {
-            return Math.abs(this.index - other.index);
+        public double getDistance (Alphabet other) {
+            return Math.abs(Math.sqrt(x + y) - Math.sqrt(other.x - other.y));
         }
 
-        public int getDistance (char other) {
+        public double getDistance (char other) {
             return getDistance(match(other));
         }
 

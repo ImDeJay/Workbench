@@ -37,10 +37,13 @@ public interface Resolvable<T> {
 
     /**
      * Resolves a class.
-     * @param data
-     * @param value
-     * @return
-     * @throws CommandException
+     * @param data The instance requesting resolution.
+     * @param value The value to resolve data from. This can be null, so it
+     *              is very important to handle null references.
+     * @return Resolved value
+     * @throws CommandException Thrown if there's an error. This error will be
+     *                          sent to the user if it's not a ParametricException,
+     *                          so make it user-friendly.
      */
     T resolve (ParametricCompiler data, String value) throws CommandException;
 

@@ -10,4 +10,8 @@ import java.lang.annotation.RetentionPolicy;
  * @author afistofirony
  */
 @Retention (RetentionPolicy.RUNTIME)
-public @interface Complex {}
+public @interface Complex {
+
+    String value() default "";
+
+}

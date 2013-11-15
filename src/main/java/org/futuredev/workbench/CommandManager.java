@@ -1,9 +1,5 @@
 package org.futuredev.workbench;
 
-import org.futuredev.workbench.command.Arguments;
-import org.futuredev.workbench.command.BukkitCommand;
-import org.futuredev.workbench.command.CommandException;
-import org.futuredev.workbench.command.CommandProcessor;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -11,6 +7,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
+import org.futuredev.workbench.command.reflective.DynamicCommand;
 
 /**
  * Represents a class that handles commands for the server.
@@ -44,11 +41,11 @@ public class CommandManager implements Listener, CommandExecutor {
 
 
     public boolean handle (Session user, String label, String[] array) {
-        BukkitCommand command = this.commandMap.getCommand(label);
+        DynamicCommand command = this.commandMap.getCommand(label);
         try {
           //  Arguments args = CommandProcessor.buildArgs(command, array);
             if (false) {
-                BukkitCommand docs = this.commandMap.getCommandDocs(label);
+                DynamicCommand docs = this.commandMap.getCommandDocs(label);
                 if (docs == null) {
                     user.print(ChatColor.RED + "Sorry, no extra documentation available.");
               } else {
@@ -64,7 +61,7 @@ public class CommandManager implements Listener, CommandExecutor {
       //}
     catch (final Throwable t) {
             user.print(ChatColor.RED + "Something went very wrong while trying to process your request! :(",
-                    ChatColor.RED + "Please report this issue to an administrator or developer:",
+                    ChatColor.RED + "Please report this issue to an administrator or developer: ",
                     ChatColor.GREEN + t.getClass().getName() + ": " + t.getMessage());
         }
 

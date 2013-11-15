@@ -8,12 +8,7 @@ import org.bukkit.ChatColor;
  */
 public class Scheme {
 
-    ChatColor primary;
-    ChatColor secondary;
-    ChatColor tertiary;
-    ChatColor completed;
-    ChatColor error;
-    ChatColor mod;
+    ChatColor primary, secondary, tertiary, completed, error, mod;
 
     /**
      * Creates a colour scheme with the specified colours.
@@ -26,12 +21,12 @@ public class Scheme {
      */
     public Scheme (char p, char s, char t, char c, char e, char m /*ing*/) {
 
-        primary   = match(p);
-        secondary = match(s);
-        tertiary  = match(t);
-        completed = match(c);
-        error     = match(e);
-        mod       = match(m);
+        primary   = ChatColor.getByChar(p);
+        secondary = ChatColor.getByChar(s);
+        tertiary  = ChatColor.getByChar(t);
+        completed = ChatColor.getByChar(c);
+        error     = ChatColor.getByChar(e);
+        mod       = ChatColor.getByChar(m);
 
     }
 
@@ -54,17 +49,6 @@ public class Scheme {
     public ChatColor getCompleted () { return completed; }
     public ChatColor getError ()     { return error;     }
     public ChatColor getMod ()       { return mod;       }
-
-    /**
-     * Matches a character to its corresponding chat colour.
-     * @param c The character.
-     * @return The chat colour.
-     */
-    private ChatColor match (char c) {
-        for (ChatColor colour : ChatColor.values()) {
-            if (colour.getChar() == c) return colour;
-        } return null;
-    }
 
     /**
      * Returns the scheme as a string.

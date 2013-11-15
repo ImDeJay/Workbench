@@ -42,7 +42,7 @@ public class PlayerInputStream implements Listener {
     }
 
     public int nextInt () { return Integer.parseInt(this.next("[0-9]+")); }
-    public double nextDouble () { return Double.parseDouble(this.next("([0-9]+|([0-9])?.[0-9]+)")); }
+    public double nextDouble () { return Double.parseDouble(this.next("([0-9]+|([0-9])?\\.[0-9]+)")); }
     public char nextChar () { return this.next("[.]").charAt(0); }
 
     @EventHandler (ignoreCancelled = true, priority = EventPriority.MONITOR)

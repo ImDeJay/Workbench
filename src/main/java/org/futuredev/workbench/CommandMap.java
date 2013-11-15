@@ -1,12 +1,14 @@
 package org.futuredev.workbench;
 
 import org.futuredev.workbench.command.Arguments;
-import org.futuredev.workbench.command.BukkitCommand;
 import org.futuredev.workbench.command.CommandBody;
 import org.futuredev.workbench.command.annotation.Command;
 import org.futuredev.workbench.command.annotation.Documentation;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.SimplePluginManager;
+import org.futuredev.workbench.command.reflective.AnnotationCommand;
+import org.futuredev.workbench.command.reflective.DynamicCommand;
+import org.futuredev.workbench.command.reflective.RegistryException;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -22,14 +24,14 @@ import java.util.List;
  */
 public class CommandMap {
 
-    HashMap<String, BukkitCommand> map = new HashMap<String, BukkitCommand>();
+    HashMap<String, DynamicCommand> map = new HashMap<String, DynamicCommand>();
     HashMap<String, List<String>> aliases = new HashMap<String, List<String>>(),
                                   aliasAliases = new HashMap<String, List<String>>(); // alias-ception!
     HashMap<String, String[]> commandAliases = new HashMap<String, String[]>();
 
     boolean injected = false;
 
-    public BukkitCommand getCommand (String match) {
+    public DynamicCommand getCommand (String match) {
         if (!map.containsKey(match))
             for (String command : aliases.keySet()) {
                 if (match.matches("(i?)" + command))
@@ -39,7 +41,7 @@ public class CommandMap {
         return map.get(match);
     }
 
-    public BukkitCommand getCommandDocs (String match) {
+    public DynamicCommand getCommandDocs (String match) {
         if (!map.containsKey(match))
             for (String command : aliases.keySet()) {
                 if (match.matches("(i?)" + command))
@@ -54,7 +56,7 @@ public class CommandMap {
      * @param method
      * @return
      */
-    public CommandMap registerCommand (Method method) {
+    public CommandMap registerCommand (Method method) throws RegistryException {
         Command command = null;
         for (Annotation a : method.getAnnotations())
             if (a instanceof Command)
@@ -81,7 +83,7 @@ public class CommandMap {
 
 
         if (!this.map.containsKey(names[0])) {
-            this.map.put(names[0], new BukkitCommand(names[0], method, doc));
+            this.map.put(names[0], new AnnotationCommand(method));
             this.aliases.put(names[0], new ArrayList<String>());
             for (int i = 1; i < names.length; ++i) {
                 if (!this.aliases.get(names[0]).contains(names[i]))
@@ -97,7 +99,7 @@ public class CommandMap {
      * @param clazz The class to check for.
      * @return This, for stacking.
      */
-    public CommandMap registerCommands (Class<? extends CommandBody> clazz) {
+    public CommandMap registerCommands (Class<? extends CommandBody> clazz) throws RegistryException {
         loop: for (Method method : clazz.getDeclaredMethods()) {
 
             Class[] classes = method.getParameterTypes();

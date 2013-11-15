@@ -86,5 +86,9 @@ public class AnnotationCommand extends DynamicCommand {
 
     }
 
+    public void inject () {
+
+    }
+
 
 }

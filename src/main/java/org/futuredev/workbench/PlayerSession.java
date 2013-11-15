@@ -9,15 +9,19 @@ public class PlayerSession extends Session {
         super(holder);
     }
 
-    public Player getSender () { return Bukkit.getPlayerExact(holder); }
+    public final Player getSender () { return Bukkit.getPlayerExact(holder); }
 
-    public boolean hasPermission (String... permissions) {
+    public final boolean hasPermission (String... permissions) {
         for (String permission : permissions) {
             if (getSender().hasPermission(permission))
                 return true;
         }
 
         return false;
+    }
+
+    public String getName () {
+        return holder;
     }
 
 }

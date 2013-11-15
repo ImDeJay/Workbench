@@ -3,6 +3,9 @@ package org.futuredev.workbench.math;
 import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Block;
+import org.futuredev.workbench.command.CommandException;
+import org.futuredev.workbench.command.reflective.Resolvable;
+import org.futuredev.workbench.command.reflective.builder.ParametricCompiler;
 
 import java.util.ArrayList;
 
@@ -11,7 +14,7 @@ import java.util.ArrayList;
  *
  * @author afistofirony
  */
-public class RayTrace {
+public class RayTrace implements Resolvable<RayTrace> {
 
     int distance;
     Vector start, dir;
@@ -59,5 +62,13 @@ public class RayTrace {
 
         return null;
     }
+
+    @Deprecated // Not complete
+    public RayTrace resolve (ParametricCompiler data, String value) throws CommandException {
+        // TODO
+
+        return null;
+    }
+
 
 }
