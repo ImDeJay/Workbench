@@ -95,7 +95,7 @@
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/lexers/params/TargetLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379861178040" ignored="false" />
     <file path="/TargetLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379861152313" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/session/user/PlayerSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378667788043" ignored="false" />
-    <file path="/PlayerSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380994141514" ignored="false" />
+    <file path="/PlayerSession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384212021583" ignored="false" />
     <file path="/MissingCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378669245348" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/command/lookup/MissingCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378669547318" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/math/Vector.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380142577641" ignored="false" />
@@ -117,7 +117,7 @@
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/date/StampType.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378682157397" ignored="false" />
     <file path="/StampType.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378682157397" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/session/user/Session.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378682522206" ignored="false" />
-    <file path="/Session.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381104197193" ignored="false" />
+    <file path="/Session.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463467215" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/enums/ParameterKey.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381456671584" ignored="false" />
     <file path="/ParameterKey.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381456655818" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/cmd/Parameters.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378728551405" ignored="false" />
@@ -136,14 +136,14 @@
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/QuerySyntax.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378867815088" ignored="false" />
     <file path="/QuerySyntax.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1378867796340" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/Queue.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038155640" ignored="false" />
-    <file path="/Queue.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038057367" ignored="false" />
+    <file path="/Queue.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384304592554" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/date/DateComparison.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038492018" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/msg/StringHelper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379038687472" ignored="false" />
     <file path="/StringHelper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382291615692" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/session/query/InventorySession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379073976324" ignored="false" />
     <file path="/InventorySession.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379073967908" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/interfaces/change/BlockChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379866891800" ignored="false" />
-    <file path="/BlockChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379866851922" ignored="false" />
+    <file path="/BlockChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384314383010" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/interfaces/rollbacks/Rollback.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379469053158" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/interfaces/change/AbstractChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379468953206" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/interfaces/rollbacks/Result.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1379469039546" ignored="false" />
@@ -160,8 +160,8 @@
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/util/lexers/params/LocationLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380142147370" ignored="false" />
     <file path="/LocationLexer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380141935455" ignored="false" />
     <file path="/AnnotationExecutor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380162165817" ignored="false" />
-    <file path="/CommandMap.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382475613792" ignored="false" />
-    <file path="/CommandManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380334896521" ignored="false" />
+    <file path="/CommandMap.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384107602313" ignored="false" />
+    <file path="/CommandManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384210948296" ignored="false" />
     <file path="/Integer.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380161621178" ignored="false" />
     <file path="/Double.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380161647717" ignored="false" />
     <file path="/CommandProcessor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380668320116" ignored="false" />
@@ -307,13 +307,13 @@
     <file path="$PROJECT_DIR$/../../LicensePlate/src/Calculator.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380745619365" ignored="false" />
     <file path="/Calculator.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380745567089" ignored="false" />
     <file path="$PROJECT_DIR$/../../LicensePlate/src/Licenses.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382581337112" ignored="false" />
-    <file path="/Licenses.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382576097851" ignored="false" />
+    <file path="/Licenses.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384467825534" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/wrap/Result.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761090795" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/wrap/Row.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761008426" ignored="false" />
     <file path="/Row.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380760960453" ignored="false" />
     <file path="$PROJECT_DIR$/../../Tracker/src/main/java/org/futuredev/tracker/sql/wrap/QueryBuilder.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761441029" ignored="false" />
     <file path="/QueryBuilder.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1380761411941" ignored="false" />
-    <file path="/SpecialMessage.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382571199895" ignored="false" />
+    <file path="/SpecialMessage.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384309299033" ignored="false" />
     <file path="/FirstMatch.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381073188971" ignored="false" />
     <file path="$PROJECT_DIR$/../../FutureSuite/src/main/java/com/futuredev/futuresuite/util/RequestMode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381104546633" ignored="false" />
     <file path="/RequestMode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381103818349" ignored="false" />
@@ -321,8 +321,8 @@
     <file path="/SimpleSpecialMessage.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1381356927017" ignored="false" />
     <file path="/VectorRegion.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382295190709" ignored="false" />
     <file path="/JSONElement.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382476973563" ignored="false" />
-    <file path="/Complex.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382475441840" ignored="false" />
-    <file path="/Element.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382574476367" ignored="false" />
+    <file path="/Complex.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384141091401" ignored="false" />
+    <file path="/Element.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384470004034" ignored="false" />
     <file path="/Tag.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382560970394" ignored="false" />
     <file path="/Node.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382560039290" ignored="false" />
     <file path="/ElementMapper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382578092251" ignored="false" />
@@ -347,6 +347,41 @@
     <file path="$PROJECT_DIR$/src/com/futuredev/utilities/json/node/Node.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575564466" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/futuredev/utilities/json/node/StringNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575564466" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/futuredev/utilities/json/node/ElementNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1382575564466" ignored="false" />
+    <file path="/Resolvable.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384106189767" ignored="false" />
+    <file path="/RayTrace.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384106561942" ignored="false" />
+    <file path="/DynamicCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384111994323" ignored="false" />
+    <file path="/AnnotationCommand.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384112001200" ignored="false" />
+    <file path="/RelevantSearch.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384138490229" ignored="false" />
+    <file path="/ComplexInstance.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384141119339" ignored="false" />
+    <file path="/Resolver.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384204325534" ignored="false" />
+    <file path="/Metadata.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384204399191" ignored="false" />
+    <file path="/Silent.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384204898421" ignored="false" />
+    <file path="/ResolverInstance.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384204635229" ignored="false" />
+    <file path="/SilentInstance.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384204810284" ignored="false" />
+    <file path="/MetadataInstance.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384205017145" ignored="false" />
+    <file path="/Scheme.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384212548765" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tracker/src/main/java/org/futuredev/tracker/sql/SQLConnection.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384304566714" ignored="false" />
+    <file path="/SQLConnection.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384304564166" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tracker/src/main/java/org/futuredev/tracker/sql/Queue.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384304599505" ignored="false" />
+    <file path="/Mapper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384309270495" ignored="false" />
+    <file path="/HypertextMapper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384309283751" ignored="false" />
+    <file path="/MarkdownMapper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384313701574" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tracker/src/main/java/org/futuredev/tracker/interfaces/change/BlockChange.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384314383011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tracker/src/main/java/org/futuredev/tracker/util/enums/ActionID.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384314397531" ignored="false" />
+    <file path="$PROJECT_DIR$/../GOFriends/src/main/java/it/go/friends/mobile/GUIEditor.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463229754" ignored="false" />
+    <file path="$PROJECT_DIR$/../GOFriends/src/main/java/it/go/friends/session/SessionManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463369676" ignored="false" />
+    <file path="/ChatListener.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463395045" ignored="false" />
+    <file path="$PROJECT_DIR$/../GOFriends/src/main/java/it/go/friends/chat/ChatListener.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463499284" ignored="false" />
+    <file path="$PROJECT_DIR$/../GOFriends/src/main/java/it/go/friends/FriendManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463499284" ignored="false" />
+    <file path="/FriendManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463335623" ignored="false" />
+    <file path="/SessionManager.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463364132" ignored="false" />
+    <file path="$PROJECT_DIR$/../GOFriends/src/main/java/it/go/friends/session/Session.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463468419" ignored="false" />
+    <file path="$PROJECT_DIR$/../GOFriends/src/main/java/it/go/friends/chat/json/SpecialMessage.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463980273" ignored="false" />
+    <file path="$PROJECT_DIR$/../GOFriends/src/main/java/it/go/friends/chat/json/node/ElementNode.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384463995708" ignored="false" />
+    <file path="$PROJECT_DIR$/../GOFriends/src/main/java/it/go/friends/chat/json/ElementMapper.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384464031557" ignored="false" />
+    <file path="$PROJECT_DIR$/../GOFriends/src/main/java/it/go/friends/chat/json/Element.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384482199203" ignored="false" />
+    <file path="$PROJECT_DIR$/../LicensePlate/src/main/json/Element.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384470371789" ignored="false" />
+    <file path="$PROJECT_DIR$/../LicensePlate/src/Licenses.java" changelist="24765dde-0d0a-4573-b99d-d983829a4b4d" time="1384482540724" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -407,10 +442,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CommandMap.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/CommandMap.java">
+      <file leaf-file-name="RayTrace.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/math/RayTrace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="36" selection-start="4400" selection-end="4400" vertical-scroll-proportion="0.421365">
+            <state line="16" column="13" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arguments.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/Arguments.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="124" column="34" selection-start="3292" selection-end="3292" vertical-scroll-proportion="0.3323442">
               <folding />
             </state>
           </provider>
@@ -426,22 +479,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/node/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/node/ElementNode.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/ElementMapper.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/ColourPattern.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/ColorPattern.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json2/Element.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/ColorPattern.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Element.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/json/Action.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/json/Action.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/StringNode.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/node/ElementNode.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/ElementMapper.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/Tag.java" />
-        <option value="$PROJECT_DIR$/src/com/futuredev/utilities/localisation/json/SpecialMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/annotation/Resolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/annotation/instance/ResolverInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/annotation/instance/SilentInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/annotation/Metadata.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/annotation/Range.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/annotation/Silent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/annotation/instance/MetadataInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/PlayerSession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/Scheme.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/Session.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/SpecialMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/HypertextMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/MarkdownMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/Element.java" />
       </list>
     </option>
   </component>
@@ -489,7 +542,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="PackagesPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -563,6 +616,108 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -577,6 +732,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.futuredev.workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.futuredev.workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="localisation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.futuredev.workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="localisation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.futuredev.workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -586,14 +813,18 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bukkit-1.6.2-R0.2-20130829.060124-15.jar!/" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -621,6 +852,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -646,19 +890,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -744,22 +975,23 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.8888889" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.273906" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="600" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -822,9 +1054,122 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/CommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="96" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/MessageAssist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.77893174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/Scheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="58" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.6231454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/PlayerSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="583" selection-end="583" vertical-scroll-proportion="0.48961425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/CommandMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="36" selection-start="4400" selection-end="4400" vertical-scroll-proportion="0.421365">
+        <state line="24" column="13" selection-start="797" selection-end="797" vertical-scroll-proportion="-2.1824925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/annotation/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.022255193">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="222" selection-end="222" vertical-scroll-proportion="0.20029673">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/node/ElementNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="125" selection-end="125" vertical-scroll-proportion="0.089020774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/MarkdownMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="66" selection-start="118" selection-end="118" vertical-scroll-proportion="0.044510387">
+          <folding>
+            <element signature="e#11586#11595#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/HypertextMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="19" selection-start="4306" selection-end="4306" vertical-scroll-proportion="1.4465876">
+          <folding>
+            <element signature="e#2823#2832#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/SpecialMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="25" selection-start="623" selection-end="623" vertical-scroll-proportion="-1.3813057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/math/Levenshtein.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="533" selection-end="533" vertical-scroll-proportion="0.33382788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/math/RayTrace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/command/Arguments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/futuredev/workbench/localisation/json/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="34" selection-start="3292" selection-end="3292" vertical-scroll-proportion="0.3323442">
           <folding />
         </state>
       </provider>
