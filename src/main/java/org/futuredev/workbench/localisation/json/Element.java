@@ -139,8 +139,8 @@ public class Element {
                 }
 
                 // DRAWBACK: F3+H will show (#0001) beside the first line.
-                element += "{id:1, tag:{display:{Name:\"\\u00A7f" + split[0] + "\", "
-                        + (sb.toString().isEmpty() ? "" : "Lore:[" + sb.toString().substring(3) +
+                element += "{id:1, tag:{display:{Name:\"\\u00A7f" + split[0]
+                        + (sb.toString().isEmpty() ? "" : "\", Lore:[" + sb.toString().substring(3) +
                         "\"]") + "}}}'}";
             } else {
                 element += hoverValue.replaceAll("'", "\\\\'") + "'}";
