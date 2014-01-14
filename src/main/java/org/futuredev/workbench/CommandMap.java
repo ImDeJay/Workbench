@@ -6,9 +6,12 @@ import org.futuredev.workbench.command.annotation.Command;
 import org.futuredev.workbench.command.annotation.Documentation;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.SimplePluginManager;
+import org.futuredev.workbench.command.doc.DynamicDocumentation;
 import org.futuredev.workbench.command.reflective.AnnotationCommand;
 import org.futuredev.workbench.command.reflective.DynamicCommand;
 import org.futuredev.workbench.command.reflective.RegistryException;
+import org.futuredev.workbench.helper.ClassMap;
+import org.futuredev.workbench.session.Session;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -26,19 +29,31 @@ public class CommandMap {
 
     HashMap<String, DynamicCommand> map = new HashMap<String, DynamicCommand>();
     HashMap<String, List<String>> aliases = new HashMap<String, List<String>>(),
-                                  aliasAliases = new HashMap<String, List<String>>(); // alias-ception!
+                                  aliasAliases = new HashMap<String, List<String>>();
     HashMap<String, String[]> commandAliases = new HashMap<String, String[]>();
+    HashMap<String, CommandBody> instances = new HashMap<String, CommandBody>();
 
     boolean injected = false;
 
-    public DynamicCommand getCommand (String match) {
-        if (!map.containsKey(match))
-            for (String command : aliases.keySet()) {
-                if (match.matches("(i?)" + command))
-                    match = command;
-            }
+    /**
+     * Gets the most specific method matching this set of arguments.
+     * @param args A set of arguments to match.
+     * @return The method
+     */
+    public DynamicCommand getCommand (String... args) {
+        if (args.length == 0)
+            return null;
 
-        return map.get(match);
+        if (args[0].charAt(0) == '/')
+            args[0] = args[0].substring(1);
+
+        AnnotationCommand deepest = (AnnotationCommand) map.get(args[0]);
+        int i = 1;
+        do {
+           deepest = deepest.getSubcommand(args[i++]);
+      } while (deepest != null && deepest.hasSubcommands());
+
+        return deepest;
     }
 
     public DynamicCommand getCommandDocs (String match) {
@@ -53,42 +68,20 @@ public class CommandMap {
 
     /**
      * Registers a method.
-     * @param method
-     * @return
+     * @param instance The instance to call when executing this command.
+     * @param method The method to register.
+     * @return This, for stacking.
      */
-    public CommandMap registerCommand (Method method) throws RegistryException {
-        Command command = null;
-        for (Annotation a : method.getAnnotations())
-            if (a instanceof Command)
-                command = (Command) a;
-
-        if (command == null)
+    public CommandMap registerCommand (CommandBody instance, Method method) throws RegistryException {
+        Class[] classes = method.getParameterTypes();
+        if (!Session.class.isAssignableFrom(classes[0])
+                || !Arguments.class.isAssignableFrom(classes[1])) // We must have those two
             return this;
 
-        String[] names = command.aliases();
-
-        if (names.length == 0) // No name? Use the method!
-            names = new String[] { method.getName().toLowerCase() };
-
-        String main = names[0];
-
-        Method doc = null;
-
-        loop: for (Method m : method.getClass().getDeclaredMethods())
-            for (Annotation a : m.getAnnotations())
-                if (a instanceof Documentation && ((Documentation) a).value().equalsIgnoreCase(main)) {
-                    doc = m;
-                    break loop;
-                }
-
-
-        if (!this.map.containsKey(names[0])) {
-            this.map.put(names[0], new AnnotationCommand(method));
-            this.aliases.put(names[0], new ArrayList<String>());
-            for (int i = 1; i < names.length; ++i) {
-                if (!this.aliases.get(names[0]).contains(names[i]))
-                    this.aliases.get(names[0]).add(names[i]);
-            }
+        if (method.isAnnotationPresent(Command.class)) {
+            AnnotationCommand command = new AnnotationCommand(method);
+            map.put(command.getName(), command);
+            this.instances.put(command.getName(), instance);
         }
 
         return this;
@@ -96,34 +89,22 @@ public class CommandMap {
 
     /**
      * Registers all @Command methods in a class.
-     * @param clazz The class to check for.
+     * @param instances The class instances to check in.
      * @return This, for stacking.
      */
-    public CommandMap registerCommands (Class<? extends CommandBody> clazz) throws RegistryException {
-        loop: for (Method method : clazz.getDeclaredMethods()) {
-
-            Class[] classes = method.getParameterTypes();
-            if (!Session.class.isAssignableFrom(classes[0])
-                    || !Arguments.class.isAssignableFrom(classes[1])) // We must have those two
+    public CommandMap registerCommands (CommandBody... instances) throws RegistryException {
+        for (CommandBody body : instances) {
+            if (this.instances.containsValue(body))
                 continue;
 
-            for (Annotation annotation : method.getAnnotations()) {
-                if (annotation instanceof Deprecated) // Allow temporary deprecation
-                    continue loop;
-
-                if (annotation instanceof Command) {
-                    Command cmd = (Command) annotation;
-                    if (cmd.aliases().length < 1)
-                        continue loop;
-
-                    this.registerCommand(method);
-                }
+            Class<? extends CommandBody> clazz = body.getClass();
+            for (Method method : clazz.getDeclaredMethods()) {
+                this.registerCommand(body, method);
             }
         }
 
         return this;
     }
-
 
     public boolean isAlias (String command) {
 
@@ -133,9 +114,9 @@ public class CommandMap {
 
     /**
      * Injects all commands here into Bukkit's command map so consoles can join the fun.
-     * @return This, for stacking.
+     * @return Whether or not injection was successful.
      */
-    public CommandMap inject () {
+    public boolean inject () {
         try {
             Field field = SimplePluginManager.class.getDeclaredField("commandMap");
             field.setAccessible(true);
@@ -146,13 +127,12 @@ public class CommandMap {
                 map.register(command, this.map.get(command));
             }
 
-            injected = true;
+            return injected = true;
       } catch (final Throwable t) {
             System.out.println("Error: Unable to access command map for dynamic registration.");
             t.printStackTrace();
+            return false;
         }
-
-        return this;
     }
 
     public boolean isInjected () {

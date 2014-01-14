@@ -1,6 +1,6 @@
 package org.futuredev.workbench.math;
 
-public class RemoteZeroVector<T> extends Vector {
+public class RemoteZeroVector extends Vector {
 
     double yaw, pitch;
 

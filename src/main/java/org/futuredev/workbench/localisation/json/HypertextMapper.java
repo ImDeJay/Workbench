@@ -1,7 +1,6 @@
 package org.futuredev.workbench.localisation.json;
 
 import org.futuredev.workbench.localisation.json.node.ElementNode;
-import org.futuredev.workbench.localisation.json.node.Node;
 import org.futuredev.workbench.localisation.json.node.StringNode;
 import org.bukkit.ChatColor;
 
@@ -56,7 +55,12 @@ public class HypertextMapper extends Mapper {
                         String value = null;
 
                         if (map.charAt(j) == '=') { // Tag has value? Nice!
-                            for (k = j + 2; k < map.length() && map.charAt(k) != '"'; ++k);
+                            char closer = map.charAt(j + 1);
+                            for (k = j + 2; k < map.length() &&
+                                    !(map.charAt(k) == closer && (map.charAt(k - 1) == '\\'
+                                            || (map.length() - k > 1 && map.charAt(k + 1) == '>'))); ++k)
+                                if (map.charAt(k) == '\\')
+                                    ++k;
                             value = map.substring(j + 2, k++);
                       } else k = j;
 
@@ -158,16 +162,16 @@ public class HypertextMapper extends Mapper {
 
                         break;
 
-                    case '\\': // TODO
+                    case '\\':
+                        if (map.length() - i > 1)
+                            current += map.charAt(++i);
                         break;
 
                     default:
                         current += map.charAt(i);
                 }
             }
-      } catch (final ArrayIndexOutOfBoundsException e) {
-            // TODO: Handle.
-        }
+      } catch (final ArrayIndexOutOfBoundsException ignored) {}
 
         if (!current.isEmpty())
             elements.add(new StringNode(current, index++));

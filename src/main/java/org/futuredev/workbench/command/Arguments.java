@@ -1,6 +1,6 @@
 package org.futuredev.workbench.command;
 
-import org.futuredev.workbench.localisation.StringHelper;
+import org.futuredev.workbench.helper.Helper;
 
 import java.util.*;
 
@@ -241,6 +241,8 @@ public class Arguments implements Iterable<String> {
     }
 
     public Flag get (char flag) {
+        flag = Character.toLowerCase(flag);
+
         for (Flag f : this.valued) {
             if (f.getKey() == flag)
                 return f;
@@ -263,6 +265,8 @@ public class Arguments implements Iterable<String> {
 
     public boolean hasFlag (char... flags) {
         for (char flag : flags) {
+            flag = Character.toLowerCase(flag);
+
             for (Flag f : this.valued) {
                 if (f.getKey() == flag)
                     return true;
@@ -290,7 +294,7 @@ public class Arguments implements Iterable<String> {
     /**
      * Handles illegal flag combinations.
      * There are two types of illegal combinations - AND combinations
-     * and OR combinations. An AND combinations requires all specified
+     * and OR combinations. An AND combination requires all specified
      * flags to be given for an exception to be thrown. An OR combination
      * only needs two of the given flags to throw an exception. For example:
      *
@@ -312,12 +316,12 @@ public class Arguments implements Iterable<String> {
                     for (int i = 1; i < s.length(); ++i)
                         result += this.hasFlag(s.charAt(i)) ? "1" : "0";
 
-                    if (StringHelper.occurrencesOf(result, '0') < 1) {
+                    if (Helper.occurrencesOf(result, '0') < 1) {
                         ArrayList<String> flags = new ArrayList<String>();
                         for (int i = 0; i < s.length(); ++i)
                             flags.add(Character.toString(s.charAt(i)));
                         throw new CommandException("Parameters.IllegalCombination",
-                                StringHelper.elegantList(flags));
+                                Helper.elegantList(flags));
                     }
 
                     break;
@@ -327,13 +331,13 @@ public class Arguments implements Iterable<String> {
                     for (int i = 1; i < s.length(); ++i)
                         result += this.hasFlag(s.charAt(i)) ? "1" : "0";
 
-                    if (StringHelper.occurrencesOf(result, '1') > 1) {
+                    if (Helper.occurrencesOf(result, '1') > 1) {
                         ArrayList<String> flags = new ArrayList<String>();
                         for (int i = 0; i < s.length(); ++i)
                             if (this.hasFlag(s.charAt(i)))
-                                flags.add("'" + Character.toString(s.charAt(i)) + "'");
+                                flags.add('\'' + Character.toString(s.charAt(i)) + '\'');
                         throw new CommandException("Parameters.IllegalCombination",
-                                StringHelper.elegantList(flags));
+                                Helper.elegantList(flags));
                     }
             }
         }

@@ -8,5 +8,4 @@ public class ParametricException extends CommandException {
         super(message, params);
     }
 
-
 }

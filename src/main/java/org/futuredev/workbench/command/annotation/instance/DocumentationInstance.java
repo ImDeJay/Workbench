@@ -6,13 +6,13 @@ import java.lang.annotation.Annotation;
 
 public class DocumentationInstance implements Annotation, Documentation {
 
-    String value;
+    String[] value;
 
-    public DocumentationInstance (String value) {
+    public DocumentationInstance (String... value) {
         this.value = value;
     }
 
-    public String value () {
+    public String[] value () {
         return this.value;
     }
 

@@ -12,6 +12,7 @@ public class SpecialMessage {
 
     ArrayList<Element> result;
     String output;
+    Mapper mapper;
 
     public SpecialMessage (String input) {
         this (new HypertextMapper(input));
@@ -21,6 +22,7 @@ public class SpecialMessage {
 
         this.result = new ArrayList<Element>();
         this.output = "";
+        this.mapper = mapper;
 
         ArrayList<Node> nodes = mapper.getElements();
 
@@ -92,13 +94,17 @@ public class SpecialMessage {
     }
 
     public String toString () {
+        return this.toString(true);
+    }
+
+    public String toString (boolean format) {
         String result = "";
 
         if (this.result.size() > 1) {
             result = ", extra:[";
             for (int i = 1; i < this.result.size(); ++i) {
                 Element element = this.result.get(i);
-                result += (i > 1 ? ", " : "") + element.toString(true);
+                result += (i > 1 ? ", " : "") + element.toString(true, format);
             }
             result += "]";
         }
@@ -106,7 +112,38 @@ public class SpecialMessage {
         if (this.result.size() < 1)
             return "{}";
 
-        return "{" + this.result.get(0).toString(false) + result + "}";
+        return "{" + this.result.get(0).toString(false, format) + result + "}";
+    }
+
+    public String humanReadable (boolean format) {
+        StringBuilder result = new StringBuilder();
+        for (Element element : this.result) {
+            String parsed = element.text;
+            if (format && element.colour != null && !element.colour.isMonochrome())
+                parsed = element.colour.patterned(parsed);
+
+            if (format && element.bold)
+                parsed = "\\\\u00A7l" + parsed;
+
+            if (format && element.strike)
+                parsed = "\\\\u00A7l" + parsed;
+
+            if (format && element.italic)
+                parsed = "\\\\u00A7l" + parsed;
+
+            if (format && element.underline)
+                parsed = "\\\\u00A7n" + parsed;
+
+            if (format && element.magic)
+                parsed = "\\\\u00A7k" + parsed;
+
+            if (format && element.colour != null && element.colour.isMonochrome())
+                parsed = "\\\\u00A7" + element.colour.pattern[0].getChar() + parsed;
+
+            result.append(parsed);
+        }
+
+        return result.toString();
     }
 
     private HashMap<Tag, Node> getOpenElements (ArrayList<Node> nodes, int backFrom) {

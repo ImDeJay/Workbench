@@ -8,6 +8,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import org.futuredev.workbench.command.reflective.DynamicCommand;
+import org.futuredev.workbench.session.Session;
 
 /**
  * Represents a class that handles commands for the server.
@@ -19,11 +20,11 @@ public class CommandManager implements Listener, CommandExecutor {
     private final CommandMap commandMap;
 
     public CommandManager () {
-        commandMap = new CommandMap();
+        this.commandMap = new CommandMap();
     }
 
     public CommandMap getMap () {
-        return commandMap;
+        return this.commandMap;
     }
 
     @EventHandler
@@ -54,6 +55,7 @@ public class CommandManager implements Listener, CommandExecutor {
 
                 return true;
             }
+
 
           // TODO  command.invoke(user, args, CommandProcessor.parse(args, command));
       } // catch (final CommandException e) {

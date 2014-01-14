@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * A simpler implementation of the element mapper, primarily used
  * by players to have nice chat messages.
  *
- * WARNING: This is far less reliable and functional than HypertextMarkdown.
+ * WARNING: This is far less reliable and functional than HypertextMapper.
  *
  * @author afistofirony
  */
@@ -257,9 +257,7 @@ public class MarkdownMapper extends Mapper {
                             tagAvailable = false;
                 }
             }
-      } catch (final ArrayIndexOutOfBoundsException e) {
-            // TODO: Handle
-        }
+      } catch (final ArrayIndexOutOfBoundsException ignored) {}
 
         if (!current.isEmpty())
             elements.add(new StringNode(current, index++));

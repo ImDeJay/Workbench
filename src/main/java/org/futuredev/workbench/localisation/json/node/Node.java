@@ -14,4 +14,9 @@ public class Node {
 
     public String getValue () { return value; }
 
+    public Node setID (int id) {
+        this.index = id;
+        return this;
+    }
+
 }

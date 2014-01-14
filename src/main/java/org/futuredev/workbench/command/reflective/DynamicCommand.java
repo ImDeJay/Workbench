@@ -1,8 +1,12 @@
 package org.futuredev.workbench.command.reflective;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.futuredev.workbench.Session;
+import org.bukkit.command.ConsoleCommandSender;
+import org.futuredev.workbench.AcceleratedPlugin;
+import org.futuredev.workbench.command.reflective.builder.ParametricRequirements;
+import org.futuredev.workbench.session.Session;
 import org.futuredev.workbench.command.Arguments;
 import org.futuredev.workbench.command.CommandException;
 import org.futuredev.workbench.command.doc.DynamicDocumentation;
@@ -12,8 +16,10 @@ import java.util.List;
 
 public abstract class DynamicCommand extends Command {
 
+    boolean deprecated;
     String title, description;
     DynamicDocumentation docs;
+    ParametricRequirements defaultArgs;
     List<String> aliases;
 
     public DynamicCommand () {
@@ -30,8 +36,20 @@ public abstract class DynamicCommand extends Command {
 
     public abstract void inject ();
 
+    // TODO: Move
     public boolean execute (CommandSender sender, String label, String[] args) {
+        if (this.deprecated) {
+            sender.sendMessage("Unknown command. Use \"" + (sender instanceof ConsoleCommandSender ? "" : "/")
+                    + "help\" for help.");
+            return true;
+        }
 
+        try {
+            Session session = AcceleratedPlugin.getInstance().getSessions().getSession(sender.getName());
+            this.handle(session, defaultArgs.fulfill(session, args));
+      } catch (final CommandException e) {
+
+        }
 
         return false;
     }

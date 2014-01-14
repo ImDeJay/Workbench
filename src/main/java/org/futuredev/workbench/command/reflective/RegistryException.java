@@ -8,5 +8,4 @@ public class RegistryException extends CommandException {
         super(message, params);
     }
 
-
 }

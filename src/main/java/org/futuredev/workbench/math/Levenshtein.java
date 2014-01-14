@@ -1,5 +1,8 @@
 package org.futuredev.workbench.math;
 
+import java.util.Collection;
+import java.util.HashSet;
+
 /**
  * Calculates Levenshtein distance, for action,
  * username, and other String approximation.
@@ -71,6 +74,14 @@ public class Levenshtein {
      */
     public int getDistance () {
         return distance;
+    }
+
+    public static String closest (String value, Collection<?> values) {
+        Collection<String> converted = new HashSet<String>();
+        for (Object obj : values)
+            converted.add(obj.toString());
+
+        return closest(value, 5, converted.toArray(new String[converted.size()]));
     }
 
     public static String closest (String value, int threshold, String... values) {

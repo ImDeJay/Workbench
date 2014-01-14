@@ -85,7 +85,7 @@ public class Element {
         return this;
     }
 
-    public String toString (boolean brackets) {
+    public String toString (boolean brackets, boolean special) {
         String result = brackets ? "{" : "";
         ArrayList<String> elements = new ArrayList<String>();
         if (text != null && !text.isEmpty()) {
@@ -116,11 +116,11 @@ public class Element {
                 elements.add("obfuscated: true");
         }
 
-        if (click != null)
-            elements.add("clickEvent:{ action:" + click + "," +
+        if (click != null && special)
+            elements.add("clickEvent:{action:" + click + "," +
                     " value:'" + clickValue.replaceAll("'", "\\\\'") + "'}");
 
-        if (hoverValue != null && !hoverValue.isEmpty()) {
+        if (hoverValue != null && !hoverValue.isEmpty() && special) {
             String element = "hoverEvent:{action:" + (hoverValue.contains("\n") ? "show_item" : "show_text")
                     + ", value:'";
 

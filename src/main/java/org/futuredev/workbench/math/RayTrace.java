@@ -1,36 +1,31 @@
 package org.futuredev.workbench.math;
 
-import org.bukkit.Material;
-import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.futuredev.workbench.command.CommandException;
 import org.futuredev.workbench.command.reflective.Resolvable;
 import org.futuredev.workbench.command.reflective.builder.ParametricCompiler;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * This class is used for basic ray tracing.
  *
  * @author afistofirony
  */
-public class RayTrace implements Resolvable<RayTrace> {
+public class RayTrace implements Iterator<Vector>, Resolvable<Block> {
 
-    int distance;
-    Vector start, dir;
+    int distance, index;
+    Vector start, dir, current;
     ArrayList<Vector> matches;
-
 
     public RayTrace (Vector start, Vector dir, int distance) {
 
         this.distance = distance;
+        this.index    = 0;
         this.start    = start;
         this.dir      = dir;
         this.matches  = new ArrayList<Vector>();
-
-        for (int i = 0; i <= distance; ++i) {
-            matches.add(new Vector(dir.x * i, dir.y * i, dir.z * i));
-        }
 
     }
 
@@ -42,33 +37,26 @@ public class RayTrace implements Resolvable<RayTrace> {
         return matches.get(index);
     }
 
-    public Vector firstBlock (World world) {
-        for (Vector vec : matches) {
-            Block block = world.getBlockAt(vec.asLocation(world.getName()));
-            if (block.getType() != Material.AIR)
-                return vec;
-        }
+    public Vector next () {
+        do {
+            current.add(dir.getX(), dir.getY(), dir.getZ());
+      } while (current.floor().equals(matches.get(matches.size() - 1).floor()) && index <= distance);
 
-        return null;
+        ++index;
+        matches.add(current);
+        return current;
     }
 
-    public Vector firstSpace (World world) {
-        for (int i = 0; i < matches.size(); ++i) {
-            Vector vec = matches.get(i);
-            Block block = world.getBlockAt(vec.asLocation(world.getName()));
-            if (block.getType() != Material.AIR && i < 0)
-                return vectorAt(i - 1);
-        }
-
-        return null;
+    public void remove () {
+        throw new UnsupportedOperationException("Removal is not supported");
     }
 
-    @Deprecated // Not complete
-    public RayTrace resolve (ParametricCompiler data, String value) throws CommandException {
-        // TODO
-
-        return null;
+    public boolean hasNext () {
+        return index <= distance;
     }
 
+    public Block resolve (ParametricCompiler data, String value) throws CommandException {
+        return null;
+    }
 
 }

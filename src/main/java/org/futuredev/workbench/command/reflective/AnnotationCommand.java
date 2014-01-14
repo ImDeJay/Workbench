@@ -1,6 +1,7 @@
 package org.futuredev.workbench.command.reflective;
 
-import org.futuredev.workbench.Session;
+import org.futuredev.workbench.command.annotation.Extends;
+import org.futuredev.workbench.session.Session;
 import org.futuredev.workbench.command.Arguments;
 import org.futuredev.workbench.command.CommandException;
 import org.futuredev.workbench.command.annotation.Command;
@@ -13,13 +14,29 @@ import java.util.HashMap;
 
 public class AnnotationCommand extends DynamicCommand {
 
-    /* COMMENTED: Annoying when programming. // final */ Method root;
-    boolean deprecated = false;
+    /* COMMENTED: Annoying when programming. -> final */ Method root;
     int rootIndex;
-    ParametricRequirements defaultArgs;
     HashMap<String, AnnotationCommand> subcommands;
     String pathTo;
 
+    /**
+     * Warning: DO NOT USE THIS TO ACTUALLY REGISTER COMMANDS.
+     * This should be used for subcommand registry.
+     * @param data @Command / CommandInstance
+     */
+    private AnnotationCommand (Command data) {
+        this.deprecated = true;
+        this.defaultArgs = null;
+        this.subcommands = new HashMap<String, AnnotationCommand>();
+        this.title = data.aliases()[0];
+        this.root = null;
+    }
+
+    /**
+     * Constructs relevant command information from a method.
+     * @param rt The method to use.
+     * @throws RegistryException
+     */
     public AnnotationCommand (Method rt) throws RegistryException {
         this.root = rt;
 
@@ -32,16 +49,21 @@ public class AnnotationCommand extends DynamicCommand {
         String simple = null;
         boolean console = true;
 
-        if (!root.isAnnotationPresent(Command.class)) {
+        if (!root.isAnnotationPresent(Command.class)) { // Either @Extends or @CommandAlias
             if (root.isAnnotationPresent(CommandAlias.class)) { // Define value by name of method
-                pathTo = root.getAnnotation(CommandAlias.class).value();
+                this.pathTo = root.getAnnotation(CommandAlias.class).value();
+                aliases = new String[] { root.getName().toLowerCase() };
+                console = true;
+            }
+
+            else if (root.isAnnotationPresent(Extends.class)) {
                 aliases = new String[] { root.getName().toLowerCase() };
                 console = true;
             }
 
             else throw new RegistryException("This is not a valid command. To be recognised as" +
-                    " such, a command must either have the @Command or the " +
-                    "@CommandAlias annotation.");
+                    " such, a command must either have an @Extends," +
+                    " @Command, or @CommandAlias annotation.");
       } else {
             Command data = root.getAnnotation(Command.class);
             aliases = data.aliases();
@@ -57,14 +79,25 @@ public class AnnotationCommand extends DynamicCommand {
         Class[] parameters         = root.getParameterTypes();
 
         if (!Session.class.isAssignableFrom(parameters[0]))
-            throw new RegistryException("Unable to register command - it does not accept a sender.");
+            throw new RegistryException("Unable to register command - its executor does not accept a sender.");
 
         if (!Arguments.class.isAssignableFrom(parameters[1]))
-            throw new RegistryException("Unable to register command - it does not accept arguments.");
+            throw new RegistryException("Unable to register command - its executor does not accept arguments.");
 
 
 
 
+    }
+
+    public AnnotationCommand getSubcommand (String match) {
+        if (match.contains(" "))
+            match = match.split(" ")[0];
+
+        return this.subcommands.get(match);
+    }
+
+    public boolean hasSubcommands () {
+        return !this.subcommands.isEmpty();
     }
 
     private ParametricRequirements match (String[] args) {
@@ -77,8 +110,6 @@ public class AnnotationCommand extends DynamicCommand {
     public void handle (Session user, Arguments args) throws CommandException {
         if (this.deprecated)
             throw new CommandException("This command is currently disabled.");
-
-
 
     }
 
